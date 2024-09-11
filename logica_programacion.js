@@ -37,8 +37,15 @@ for (let i=0; i < numeros.length - 1; i++){
         }
     }
 }
+// Revertimos la lista porque solo son 3 numeros.
+numeros_invertidos = numeros.slice().reverse()
+
+
 // Mostramos los numeros del array ordenado de menor a mayor.
 console.log(`Lista de numeros ordenados de mayor a menor es: ${numeros}`)
+
+// Revertimos la lista porque solo son 3 numeros.
+console.log(`Lista de numeros ordenados de menor a mayor es: ${numeros_invertidos}`)
 
 // De la lista numeros tomaremos el primer elemento para saber el mas grande.
 console.log(`El numero mas grande de la lista es: ${numeros[0]}`)
