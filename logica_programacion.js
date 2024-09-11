@@ -17,6 +17,13 @@ for (let i = 0; i < 3; i++){
 // Mostramos la lista para verificar que los numeros se agregaron correctamente.
 console.log(`Lista de numeros: ${numeros}`)
 
+// Verificar si los números son iguales
+if (numeros[0] === numeros[1] && numeros[1] === numeros[2]) {
+    console.log("Todos los números son iguales.");
+} else {
+    console.log("Los números no son todos iguales.");
+}
+
 // Metodo de burbuja de mayor a menor.
 // Primer For para iterar las veces necesarias el array.
 for (let i=0; i < numeros.length - 1; i++){
@@ -41,4 +48,6 @@ console.log(`El numero del medio de la lista es: ${numeros[1]}`)
 
 // De la lista numeros tomaremos el ultimo elemento para el numero menor.
 console.log(`El numero menor de la lista es: ${numeros[2]}`)
+
+
 
